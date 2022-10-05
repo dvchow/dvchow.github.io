@@ -9,27 +9,27 @@ img {
 }
 
 body {
-	background-color: (#a4a4b3); /* Not totally white. */
+	background-color: (240,240, 240); /* Not totally white. */
 	color: (15, 15, 15);  /* Not totally black. */
 	line-height: 140%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
 
 h1 {
-	background-color: (164, 164, 179);
+	background-color: (a4a4b3);
 	color: (10, 10, 10); /* Same as body background. */
 	font-size: 30;
 	padding: 50 50 50; /* You want three values. */
 	font-weight: 10;
-	text-transform: _______;
+	text-transform: capitalize;
 }
 
 /* You’ll need to add a span element to your HTML. */
 h1 span { 	
 	font-family: serif;
-	font-style: _______;
+	font-style: italic;
 	font-weight: 10;
-	text-transform: _______;
+	text-transform: lowercase;
 }
 
 h2 {
@@ -38,7 +38,7 @@ h2 {
 	font-size: 20;
 	padding: 20;
 	font-family: serif;
-	font-weight: _______;
+	font-weight: 5;
 }
 
 h3 {
@@ -46,8 +46,8 @@ h3 {
 	padding-top: _______;
 	font-size: 20;
 	color: 171, 29, 29;
-	font-weight: _______;
-	text-transform: _______;
+	font-weight: 5;
+	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: ____ ____ ____;
 }
@@ -57,7 +57,7 @@ h4 {
 }
 
 p.description {
-	font-style: _______;
+	font-style: italic;
 }
 
 p.price {
