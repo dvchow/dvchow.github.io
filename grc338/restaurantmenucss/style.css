@@ -11,7 +11,7 @@ img {
 body {
 	background-color: rgb(240,240, 240); /* Not totally white. */
 	color: rgb(15, 15, 15);  /* Not totally black. */
-	line-height: 140%; 	/* A little extra leading. */
+	line-height: 200%; 	/* A little extra leading. */
 	font-family: sans-serif;
 }
 
@@ -20,7 +20,7 @@ h1 {
 	color: rgb(240,240, 240); /* Same as body background. */
 	font-size: 5rem;
 	padding: 0em 0em 0em; /* You want three values. */
-	font-weight: 10;
+	font-weight: 100;
 	text-transform: capitalize;
 }
 
@@ -28,7 +28,7 @@ h1 {
 h1 span { 	
 	font-family: serif;
 	font-style: italic;
-	font-weight: 10;
+	font-weight: 100;
 	text-transform: lowercase;
 }
 
@@ -38,7 +38,7 @@ h2 {
 	font-size: 0.1rem;
 	padding: 0.1em;
 	font-family: serif;
-	font-weight: 10;
+	font-weight: 100;
 }
 
 h3 {
@@ -46,14 +46,14 @@ h3 {
 	padding-top: 0.1em;
 	font-size: 2rem;
 	color: rgb(171, 29, 29);
-	font-weight: 10;
+	font-weight: 100;
 	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: ____ ____ ____;
 }
 
 h4 {
-	font-weight: 150;
+	font-weight: 50;
 }
 
 p.description {
@@ -70,4 +70,8 @@ ul {
 
 li { 
 	margin: 0.1em 0.1em;
+}
+
+hr{
+	color: rgb(171, 29, 29);
 }
