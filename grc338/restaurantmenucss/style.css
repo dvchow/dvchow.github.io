@@ -20,7 +20,7 @@ h1 {
 	color: rgb(10, 10, 10); /* Same as body background. */
 	font-size: 60rem;
 	padding: 50em 50em 50em; /* You want three values. */
-	font-weight: 30em;
+	font-weight: 250;
 	text-transform: capitalize;
 }
 
@@ -28,17 +28,17 @@ h1 {
 h1 span { 	
 	font-family: serif;
 	font-style: italic;
-	font-weight: 100;
+	font-weight: 250;
 	text-transform: lowercase;
 }
 
 h2 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(10, 10, 10);
-	font-size: 20;
-	padding: 20;
+	font-size: 20rem;
+	padding: 20em;
 	font-family: serif;
-	font-weight: 15;
+	font-weight: 200;
 }
 
 h3 {
@@ -46,14 +46,14 @@ h3 {
 	padding-top: 30em;
 	font-size: 20rem;
 	color: rgb(171, 29, 29);
-	font-weight: 5;
+	font-weight: 100;
 	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: ____ ____ ____;
 }
 
 h4 {
-	font-weight: 10;
+	font-weight: 150;
 }
 
 p.description {
