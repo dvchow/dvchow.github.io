@@ -20,7 +20,7 @@ h1 {
 	color: rgb(240,240, 240); /* Same as body background. */
 	font-size: 3rem;
 	padding: 1em 0em 1em; /* You want three values. */
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: capitalize;
 }
 
@@ -28,7 +28,7 @@ h1 {
 h1 span { 	
 	font-family: serif;
 	font-style: italic;
-	font-weight: 400;
+	font-weight: 600;
 	text-transform: lowercase;
 }
 
@@ -38,7 +38,7 @@ h2 {
 	font-size: 2rem;
 	padding: 0em,0em, 0.5em;
 	font-family: serif;
-	font-weight: 350;
+	font-weight: 500;
 }
 
 h3 {
@@ -46,7 +46,7 @@ h3 {
 	padding-top: 0.1em;
 	font-size: 2rem;
 	color: rgb(171, 29, 29);
-	font-weight: 400;
+	font-weight: 500;
 	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: ____ ____ ____;
