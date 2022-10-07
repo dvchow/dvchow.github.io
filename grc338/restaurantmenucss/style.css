@@ -9,7 +9,7 @@ img {
 }
 
 body {
-	background-color: rgb(240,240, 240); /* Not totally white. */
+	background-color: rgb(15,15,15); /* Not totally white. */
 	color: rgb(15, 15, 15);  /* Not totally black. */
 	line-height: 200%; 	/* A little extra leading. */
 	font-family: sans-serif;
