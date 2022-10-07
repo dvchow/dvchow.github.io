@@ -9,7 +9,7 @@ img {
 }
 
 body {
-	background-color: rgb(240, 240, 240); /* Not totally white. */
+	background-color: rgb(240,240, 240); /* Not totally white. */
 	color: rgb(15, 15, 15);  /* Not totally black. */
 	line-height: 200%; 	/* A little extra leading. */
 	font-family: sans-serif;
@@ -18,7 +18,7 @@ body {
 h1 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(240,240, 240); /* Same as body background. */
-	font-size: 2em;
+	font-size: 2rem;
 	padding: 50em 50em 50em; /* You want three values. */
 	font-weight: 250;
 	text-transform: capitalize;
@@ -35,7 +35,7 @@ h1 span {
 h2 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(15, 15, 15);
-	font-size: 2em;
+	font-size: 2rem;
 	padding: 20em;
 	font-family: serif;
 	font-weight: 200;
@@ -44,7 +44,7 @@ h2 {
 h3 {
 	margin: 10em 0em 10em; /*Three values again. You got the idea.*/
 	padding-top: 30em;
-	font-size: 20rem;
+	font-size: 2rem;
 	color: rgb(171, 29, 29);
 	font-weight: 100;
 	text-transform: capitalize;
