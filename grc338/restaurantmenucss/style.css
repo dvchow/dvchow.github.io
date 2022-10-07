@@ -18,8 +18,8 @@ body {
 h1 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(240,240, 240); /* Same as body background. */
-	font-size: 2rem;
-	padding: 1em 1em 1em; /* You want three values. */
+	font-size: 0.1rem;
+	padding: 0.1em 0.1em 0.1em; /* You want three values. */
 	font-weight: 10;
 	text-transform: capitalize;
 }
@@ -28,21 +28,21 @@ h1 {
 h1 span { 	
 	font-family: serif;
 	font-style: italic;
-	font-weight: 15;
+	font-weight: 10;
 	text-transform: lowercase;
 }
 
 h2 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(240, 240, 240);
-	font-size: 2rem;
-	padding: 2em;
+	font-size: 0.1rem;
+	padding: 0.1em;
 	font-family: serif;
 	font-weight: 10;
 }
 
 h3 {
-	margin: 2em 0em 2em; /*Three values again. You got the idea.*/
+	margin: 0.1em 0em 0.1em; /*Three values again. You got the idea.*/
 	padding-top: 0.1em;
 	font-size: 2rem;
 	color: rgb(171, 29, 29);
