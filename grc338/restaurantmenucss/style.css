@@ -19,7 +19,7 @@ h1 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(240,240, 240); /* Same as body background. */
 	font-size: 3rem;
-	padding: 2em 0em 0.1em; /* You want three values. */
+	padding: 2em 0em 2em; /* You want three values. */
 	font-weight: 400;
 	text-transform: capitalize;
 }
