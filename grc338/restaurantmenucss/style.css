@@ -46,7 +46,7 @@ h3 {
 	padding-top: 0.1em;
 	font-size: 2rem;
 	color: rgb(171, 29, 29);
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: ____ ____ ____;
