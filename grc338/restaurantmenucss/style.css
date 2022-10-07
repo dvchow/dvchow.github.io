@@ -19,8 +19,8 @@ h1 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(240,240, 240); /* Same as body background. */
 	font-size: 2rem;
-	padding: 50em 50em 50em; /* You want three values. */
-	font-weight: 250;
+	padding: 5em 5em 5em; /* You want three values. */
+	font-weight: 10;
 	text-transform: capitalize;
 }
 
@@ -28,7 +28,7 @@ h1 {
 h1 span { 	
 	font-family: serif;
 	font-style: italic;
-	font-weight: 250;
+	font-weight: 15;
 	text-transform: lowercase;
 }
 
@@ -36,17 +36,17 @@ h2 {
 	background-color: rgb(164, 164, 179);
 	color: rgb(15, 15, 15);
 	font-size: 2rem;
-	padding: 20em;
+	padding: 2em;
 	font-family: serif;
-	font-weight: 200;
+	font-weight: 10;
 }
 
 h3 {
-	margin: 10em 0em 10em; /*Three values again. You got the idea.*/
-	padding-top: 30em;
+	margin: 2em 0em 2em; /*Three values again. You got the idea.*/
+	padding-top: 3em;
 	font-size: 2rem;
 	color: rgb(171, 29, 29);
-	font-weight: 100;
+	font-weight: 10;
 	text-transform: capitalize;
 	letter-spacing: 0.1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
 	border-top: ____ ____ ____;
@@ -65,7 +65,7 @@ p.price {
 }
 
 ul {
-	margin: 20em 0em 20em;
+	margin: 2em 0em 2em;
 }
 
 li { 
