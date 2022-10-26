@@ -8,7 +8,7 @@ img {
 }
 
 div.container{
-    max-width: 100em;
+    max-width: 150em;
     margin: auto;
 
 }
@@ -71,6 +71,8 @@ h3 {
     font-family: Sutro, serif;  
     font-weight: 400;  
     font-style: normal;
+    border-top: 3px solid rgb(255, 153, 30);
+    padding-top: 0.5em;
 }
 
 ul {
@@ -90,6 +92,7 @@ li {
 }
 
 .directions {
+    border-top: rgb(255, 153, 30);
     margin-top: 2rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
