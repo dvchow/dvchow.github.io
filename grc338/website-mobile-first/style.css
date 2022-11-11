@@ -1,0 +1,122 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+/*Reminders
+add borders to images
+replace the images
+
+*/
+
+img {
+    width: 100%; 
+    display: block;
+}
+
+body {
+    background-color: #fafafa;
+    color: #1e1e1e;
+    line-height: 170%; 
+    font-family: poppins, sans-serif;  
+    font-weight: 450;  
+    font-style: normal;
+}
+
+/*One column 8 rows. Put items in boxes (slightly grey)*/
+
+h2{
+    font-size: 2.5em;
+    padding-top: 1em;
+    padding-left: 0.5em;
+    font-family: Sutro, serif;  
+    font-weight: 700;  
+    font-style: normal;
+    line-height: 100%; 
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+h4{
+    font-size: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-family: Sutro, serif;  
+    font-weight: 1000;  
+    font-style: normal;
+    line-height: 100%;     
+
+}
+
+p{
+ max-width: 90%;  
+ margin: 1em 1em 1em 1em; 
+}
+
+nav{
+    text-align: center;
+    border-top: solid #6f6f6f;
+    border-bottom: solid  #6f6f6f;
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #abd6f3;
+    
+
+}
+
+nav li{
+    display: inline;
+    max-width: 90%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+    
+a{
+        color: rgb(47, 23, 100);
+        text-decoration: none;
+        font-weight: bold;
+}
+    
+a:hover{
+        color:rgb(106, 157, 175);
+        /* removed background*/
+    }
+
+    
+.list{
+    display: grid;
+    grid-row: 1/10;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: auto;
+    max-width: 80%;
+    margin: auto;
+    list-style: none;
+    border-width: 2px;
+    row-gap: 15px;
+    
+}
+
+
+
+.items{
+    border:solid #7d7985;
+    background-color: #dbdbe5;
+    border-radius: 15px;
+}
+
+img{
+    margin: 1em 1em 1em 1em;
+    max-width: 90%;
+
+}
+
+
+    
+
+/*img{
+
+
+}
