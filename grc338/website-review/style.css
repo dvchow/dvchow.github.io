@@ -48,6 +48,7 @@ h4{
 p{
     max-width: 90%;  
     margin: 1em 1em 1em 1em; 
+    font-size: 1.2em;
 }
 
 nav{
@@ -74,11 +75,11 @@ a{
     text-decoration: none;
     font-weight: bold;
 }
- 
+
 a:hover{
     color:rgb(106, 157, 175);
 }
-    
+
 .list{
     display: grid;
     grid-row: 1/10;
