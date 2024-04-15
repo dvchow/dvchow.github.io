@@ -81,7 +81,7 @@ section.order ul{
 }
 
 section.order ul li{
-	margin: 0 1em 0 0 
+	margin: 0 1em 0 0; 
 	flex: 1 0 15em;
 
 }
